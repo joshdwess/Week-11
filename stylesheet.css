@@ -1,0 +1,25 @@
+body{ background-color: rgb(238,215,161);
+    
+    
+}
+
+.tile{
+    width: 85px;
+    height: 85px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 55px;
+    cursor: pointer;
+    color: aliceblue;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#tileContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
